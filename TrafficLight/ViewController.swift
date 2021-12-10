@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
     @IBAction func startPressed() {
         
-        if orangeView.alpha == 0.3 && greenView.alpha == 0.3 && redView.alpha == 0.3 {
+        if orangeView.alpha != 1 && greenView.alpha != 1 && redView.alpha != 1 {
             startButton.setTitle("NEXT", for: .normal)
             redView.alpha = 1
         } else if redView.alpha == 1 {
