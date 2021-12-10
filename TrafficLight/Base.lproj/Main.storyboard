@@ -48,7 +48,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
-                                    <action selector="startPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaO-Qp-T33"/>
+                                    <action selector="startPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="hB2-Ab-nh5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,10 +62,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenView" destination="dIl-sZ-pha" id="9CF-SX-8Vt"/>
-                        <outlet property="orangeView" destination="8zE-F8-JG9" id="JjU-iH-dwO"/>
-                        <outlet property="redView" destination="eCu-4Z-Bvt" id="hyy-ba-V4q"/>
-                        <outlet property="startButton" destination="AdH-3T-KcC" id="mG5-Qt-0Jf"/>
+                        <outlet property="blueLight" destination="dIl-sZ-pha" id="jxN-jo-pow"/>
+                        <outlet property="redLight" destination="eCu-4Z-Bvt" id="4aM-tc-aHf"/>
+                        <outlet property="startButton" destination="AdH-3T-KcC" id="KIN-hN-cd7"/>
+                        <outlet property="yellowLight" destination="8zE-F8-JG9" id="JjU-iH-dwO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
